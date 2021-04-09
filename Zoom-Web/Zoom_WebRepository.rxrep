@@ -1,0 +1,324 @@
+﻿<repository
+id="df2d2ede-ddd4-43a7-8234-6fcba55fb492"
+name="Zoom_WebRepository">
+	<codegen
+	classname="Zoom_WebRepository"
+	namespace="Zoom_Web">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="f8f1425a-18c7-4bec-ab85-dad776bea586"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="1a8b9069-9025-466f-9260-51966608bd1a"
+		isrooted="True"
+		name="ApplicationUnderTest"
+		refimgid="17e75674-8cf1-4c9c-b421-f3e9a1dfa02e"
+		searchtimeout="30000ms"
+		usecache="False">
+			<folder
+			capname="unknown"
+			id="e06da471-4a25-4cab-9daf-736eaaa8acdf"
+			isrooted="False"
+			name="Textboxes"
+			searchtimeout="0ms">
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="f6da38e8-0dd8-4910-a85e-1ac555f24215"
+				name="FirstName"
+				refimgid="47a123a7-6f52-4eb5-8ba2-3ba342b7a277"
+				refpath="/dom[@domain='www.ranorex.com']//input[#'FirstName']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='www.ranorex.com']//input[#'FirstName']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="eca5fd42-763f-4770-a7b5-e91bc42de344"
+				name="LastName"
+				refimgid="ed46057d-427d-4dbf-8f77-68b06b9f0c66"
+				refpath="/dom[@domain='www.ranorex.com']//input[#'LastName']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='www.ranorex.com']//input[#'LastName']
+				</item>
+			</folder>
+			<folder
+			capname="webdocument"
+			id="a69a4c7e-bcc9-40e3-a0ba-6e23068b5fbc"
+			isrooted="True"
+			name="Buttons"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="06b2912a-abfc-4d4c-ac0c-6f7da52b8daf"
+				name="Gender"
+				refimgid="ad692c44-aaf0-467e-8976-bc89e828193d"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='www.ranorex.com']//td[#'gender']/table//input[@value=$Gender]
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="0309b42a-ecf9-4e7d-b25b-1e7b471fbbca"
+				name="InputTagAdd"
+				refimgid="abbe7f8e-c9f1-4705-84bd-91d2809d9d1c"
+				refpath="/dom[@domain='www.ranorex.com']//input[#'Add']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='www.ranorex.com']//input[#'Add']
+				</item>
+				<basepath>
+					/dom[@domain='www.ranorex.com']
+				</basepath>
+			</folder>
+			<item
+			addcaps="unknown,webelement,optiontag"
+			capname="optiontag"
+			id="3505c258-071a-4b51-87fc-85b79e96f2f4"
+			name="Category"
+			refimgid="054cbc88-b498-4cd5-ac7d-981d565fd942"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='www.ranorex.com']//select[#'Category']/option[@value=$Category]
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="e48c22f1-e29d-40e1-93c4-b703effa7bfb"
+			name="Clear"
+			refimgid="b60476fc-38d9-4eb1-b3a6-f31b0eaa9bdc"
+			refpath="/dom[@domain='www.ranorex.com']//input[#'Clear']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='www.ranorex.com']//input[#'Clear']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="e349efc6-8536-4447-9668-1b6966726eb5"
+			name="Gender1"
+			refimgid="0c17980c-67d9-4f5a-9657-52f7f8ed4e5a"
+			refpath="/dom[@domain='www.ranorex.com']//td[#'gender']/table/tbody/tr[2]/td/input[@id='Gender']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='www.ranorex.com']//td[#'gender']/table//input[@id='Gender']
+			</item>
+			<item
+			addcaps="unknown,webelement,ptag"
+			capname="ptag"
+			id="3c8a83cb-536d-4559-aa23-fb16ea5354d9"
+			name="SomePTag"
+			refimgid="6e5b4eac-9dd8-4c6f-8498-9a7cfc246ade"
+			refpath="/dom[@domain='www.ranorex.com']//div[#'et_builder_outer_content']/div/div[2]/div/div/div[2]/div/p"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='www.ranorex.com']//div[#'et_builder_outer_content']/div/div[2]/div/div/div[2]/?/?/p
+			</item>
+			<item
+			addcaps="unknown,webelement,tdtag"
+			capname="tdtag"
+			id="df4d0744-b5a1-4359-8535-97a79dbb81c7"
+			name="Count"
+			refimgid="9714939c-ec2e-4f25-a1c2-fc869048fe84"
+			refpath="/dom[@domain='www.ranorex.com']//td[#'count']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='www.ranorex.com']//td[#'count']
+			</item>
+			<basepath>
+				/dom[@domain='www.ranorex.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="desktop,nativewindow"
+		capname="desktop"
+		id="5cc4f28d-475f-4ac2-9444-fe7dc7e9a1b0"
+		isrooted="True"
+		name="Explorer"
+		refpath="/desktop[@processname='explorer']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="list,nativewindow"
+			capname="list"
+			id="cc8dc8f8-7903-4a3a-b449-e7c04fe8f986"
+			name="List1"
+			refimgid="8b6ce2b4-f631-4fb4-8966-aa1ca8cd7f84"
+			refpath="/desktop[@processname='explorer']/container/list[@controlid='1']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/desktop[@processname='explorer']/?/?/list[@controlid='1']
+			</item>
+			<basepath>
+				/desktop[@processname='explorer']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACBElEQVQ4T4WSUWgScRzHHfQcLPZcL0EQFNtTQU9FRUHSXhaTRbBA
+ixBRiIhAMIz2JERgT0bI1ALZy6BCyY0RMtuZeqPi0hlUE0JcyZXV7S6/u9/vdnezC/rDB/7c///5
+8L//net/43TmG/6m2Wxie9kYC8I6Xjc7eLL0wbH50aqMWVHm+Y2ChiMz7xGPx+3IgduStZnmmUoX
+i1IX6GsOaA8FQqEQRFG0A/kNsNzXflhQ5Pi8yhy7Vbae/zPAstphRmd/WWJvE2jJMAL6GsnEg/17
+kcvl7EDtUwv9zS8MBWiY8pp+OlMst4C3F/dBvnsYubFhFItFcOCP8tGCAor+yiQTJL5aB8sZ0bhE
+kj0eD5LJ5Hbg95oFBUz5/p1plu+97FmnGLpShtvtRjgctk/Q2XgD7aeBGRjZPcSYIkHrFPB6vYN3
+UFit6os1hgJ03J3QJZrrFHB8hReiALW3wlBg+bMtmpBM/4gjsGfqGQq1ZWjfi8xOSf363ILl8aeM
+I0CU3y1ClRegdnWB0KXRm0sDHDpxFecnLiMWi6HRaNiBXWfnMHzusUM4euoSJqem4ff7EQwGEYlE
+kEqlUKlUIMuyEZhJreDghYcYO3MdJ8evwefzIRAI8DGj0Siy2SxKpRKq1SokSUK73YaiKIZsjnw+
+j0QigXQ6DZoLgsDvWK/XBzc6hsu1BRMfpP7Bj/TsAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="e3e417b1-665b-4d76-b536-a3cb08a30b3d"
+		isrooted="True"
+		name="CommandPrompt"
+		refpath="/form[@title='Command Prompt']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<basepath>
+				/form[@title='Command Prompt']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAABqSURBVDhPYxh40D9p+n9KMNiAyzcfEMQZlRMx
+aLgBp86cJQvDDQD6hCxMfQNgAFkRTBxdDIRRDEBWBGOj0+gYpwHoGAbQxYl2ATobhlEMAGEYQFaE
+LAejQQDExjCAVEw9AyjBQIMoAQwMAJ1rppuWQpqJAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,control,nativewindow"
+		capname="form"
+		id="f1101d9f-dd02-483e-8270-12bd297437a4"
+		isrooted="True"
+		name="RxMainFrame"
+		refpath="/form[@controlname='RxMainFrame']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="0c1d0e59-080a-4cc8-8234-cb3d433b9877"
+			name="FirstName"
+			refimgid="31758075-1b01-4ea1-b561-d0d4fa6604d4"
+			refpath="/form[@controlname='RxMainFrame']/tabpagelist/tabpage[@controlname='RxTabStandard']/text[@controlname='txtFirstName']/text[@accessiblename='First name']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabStandard']/?/?/text[@accessiblename='First name']
+			</item>
+			<basepath>
+				/form[@controlname='RxMainFrame']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAB9SURBVDhPY0AGwcHBi4D4NxD/x4NB8r+DgoJa
+odogACj4BqQAyiUdwDQ/YBfa+oBN6CA+DNaADmAGAAlGIGbCh8Ea0AHIACD+B8RficFQbQgAFAQa
+TjwABuI3KBMCSDEgICBAeNSAUQOwGgACIEOAEt8JYaC6H0AaaAADAwC5s5VutWbaWgAAAABJRU5E
+rkJggg==
+			</icon>
+		</appfolder>
+		<folder
+		capname="unknown"
+		id="929a9e26-57d7-463b-87a8-fb8e64391020"
+		isrooted="False"
+		name="TextEditors"
+		searchtimeout="0ms">
+			<item
+			addcaps="text,uiautomation"
+			capname="text"
+			id="308791bd-d8db-4ea9-ab86-270dbe4a087c"
+			name="TextArea"
+			refimgid="f6673b2a-bba3-4105-b834-965678c7bc52"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@title~'Command Prompt']/text[@automationid='Text Area']
+			</item>
+			<appfolder
+			addcaps="form,nativewindow,wordapplication"
+			capname="form"
+			id="19d8deee-f9fb-4d84-9867-a4158dddf652"
+			isrooted="True"
+			name="Document1Word"
+			refpath="/form[@title='Document1 - Word']"
+			searchtimeout="30000ms"
+			usecache="True">
+				<item
+				addcaps="tabpage,uiautomation"
+				capname="tabpage"
+				id="5802fbb1-11dc-41c0-8811-4801007cedcd"
+				name="Draw"
+				refimgid="d108fd58-59fd-40cf-ae7f-d7f28b781162"
+				robustPath=""
+				searchtimeout="30000ms">
+					/form[@title='Document1 - Word']//tabpage[@name=$ToolBarIcon]
+				</item>
+				<item
+				addcaps="tabpage,uiautomation"
+				capname="unknown"
+				id="ec4cc33e-23b5-475d-9ccf-d6d5dcefe0f2"
+				name="Design"
+				refimgid="cc86ca18-2e30-46fb-889c-dc1f1d66178c"
+				robustPath=""
+				searchtimeout="30000ms">
+					/form[@title='Document1 - Word']/container[@caption='MsoDockTop']//container[@name='Ribbon']/tabpagelist[@name='Ribbon Tabs']/tabpagehome[@name='Design']
+				</item>
+				<basepath>
+					/form[@title='Document1 - Word']
+				</basepath>
+				<icon>
+					iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAD/SURBVDhPY0AGNrPuvXdc+u4/sRikHqoVArAp
+IoShWiEAmwJCmEEsZON7iai9//Fh6fgDWDWDMAM2DdiwmFPBf+2ayxgYbMD206/+H732HqzwyoPP
+/x+9+g5mg8RAciC2qF0mbgNqF936//Hr7/9qKQf/w4Bp/lGwQSA5ggYENZ8Da8qfcQ2sCWQYiA0C
+IDmCBoAwCICcD3IyCIPYIACT59GNg7ORMdwAkH9BoGftPbCzQQAWLiBM0IBZ2x+BNYGcDPMSSAwm
+T9AAQhinAcQkJPGwbf855D3+C9hPxMDQRAwBIEW4MI9+LmEDsCkghKFaIYDPqv09NkW4MJ9V+3sA
+u0xE1hsZ+kkAAAAASUVORK5CYII=
+				</icon>
+			</appfolder>
+		</folder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+		<var
+		id="a8697a7f-c843-4657-8fc6-f5dc55d78c07"
+		name="Gender">
+			male
+		</var>
+		<var
+		id="d4522317-ea8b-4b4c-907f-5fa79996d47f"
+		name="Category">
+		</var>
+		<var
+		id="aa7871c6-ef2a-43f4-8160-b33c6b94e881"
+		name="ToolBarIcon">
+			Draw
+		</var>
+	</variables>
+</repository>

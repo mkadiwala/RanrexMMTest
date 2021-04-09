@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="52cd6b4d-2b6a-4565-8d0d-b99af979a82b"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseBrowser"
+	namespace="Zoom_Web">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="e193f12d-50c9-42ea-9cb5-1184ff948657">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="1a8b9069-9025-466f-9260-51966608bd1a"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@processname='iexplore']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="df2d2ede-ddd4-43a7-8234-6fcba55fb492"
+	name="Zoom_WebRepository"
+	relativepath="Zoom_WebRepository.rxrep">
+		<codegen
+		classname="Zoom_WebRepository"
+		namespace="Zoom_Web">
+		</codegen>
+		<rootfolder
+		id="f8f1425a-18c7-4bec-ab85-dad776bea586"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

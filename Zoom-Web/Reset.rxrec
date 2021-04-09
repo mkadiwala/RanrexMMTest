@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="8211ade8-ea5e-40c8-ba2d-c42c3f9e63c6"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Reset"
+	namespace="Zoom_Web">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+	</recorditems>
+	<repository
+	id="df2d2ede-ddd4-43a7-8234-6fcba55fb492"
+	name="Zoom_WebRepository"
+	relativepath="Zoom_WebRepository.rxrep">
+		<codegen
+		classname="Zoom_WebRepository"
+		namespace="Zoom_Web">
+		</codegen>
+		<rootfolder
+		id="f8f1425a-18c7-4bec-ab85-dad776bea586"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Reset.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

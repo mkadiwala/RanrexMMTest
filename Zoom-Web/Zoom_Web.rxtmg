@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc
+rxversion="9.5">
+	<testsuiteentryhierarchy>
+		<flatlistofchildren>
+			<testmodule
+			id="522caa19-f160-48a0-97c4-cadb42a3727e"
+			name="Reset"
+			ref="8211ade8-ea5e-40c8-ba2d-c42c3f9e63c6"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="651b7250-b38d-40ee-bf07-5380f3655bbf"
+			name="Recording1"
+			ref="be601fb3-6e6e-4e77-aff1-caaf5a24ee23"
+			type="Recording">
+			</testmodule>
+			<modulegroups
+			id="8f29891b-3123-489c-8ce1-450302732065"
+			name="Zoom_Web">
+			</modulegroups>
+			<testmodule
+			id="9142e90e-7f37-4994-b2ed-e763e6108369"
+			name="OpenBrowser"
+			ref="09bb019d-a3b8-4b61-85c3-0daea0181a2f"
+			type="Recording">
+			</testmodule>
+			<modulegroupdef
+			id="b3e09663-7514-4033-8e51-daf8a59b9161"
+			name="Startups">
+			</modulegroupdef>
+		</flatlistofchildren>
+		<childhierarchy>
+			<modulegroups
+			id="8f29891b-3123-489c-8ce1-450302732065"
+			name="Zoom_Web">
+				<modulegroupdef
+				id="b3e09663-7514-4033-8e51-daf8a59b9161"
+				name="Startups">
+					<testmodule
+					id="9142e90e-7f37-4994-b2ed-e763e6108369"
+					name="OpenBrowser">
+					</testmodule>
+					<testmodule
+					id="522caa19-f160-48a0-97c4-cadb42a3727e"
+					name="Reset">
+					</testmodule>
+					<testmodule
+					id="651b7250-b38d-40ee-bf07-5380f3655bbf"
+					name="Recording1">
+					</testmodule>
+				</modulegroupdef>
+			</modulegroups>
+		</childhierarchy>
+	</testsuiteentryhierarchy>
+</modulegroupdoc>
