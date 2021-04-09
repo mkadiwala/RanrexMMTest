@@ -299,13 +299,6 @@
       <id>4b8d49b1-eb34-408c-a33e-66b0f3123e0e</id>
       <recordtableid>222ac9b6-0ee8-4867-b2bd-318aa5b7e967</recordtableid>
     </None>
-    <Content Include="Web.xlsx">
-      <Link>Web.xlsx</Link>
-      <BoundTo>675b6742-9514-42e1-afe3-b311c3fe18ee</BoundTo>
-      <DependentUpon>Zoom_Web.rxtst</DependentUpon>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <id>cc198f0f-e0fb-4313-b6e6-3dfc817faf13</id>
-    </Content>
     <None Include="Zoom_WebRepository.rximg">
       <BoundTo>87ca6d64-6070-4a0b-8f6b-41d314e351d7</BoundTo>
       <DependentUpon>Zoom_WebRepository.rxrep</DependentUpon>
